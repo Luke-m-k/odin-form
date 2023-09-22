@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+}
+
+body {
+    background: url(./photo.jpg);
+    background-size: cover;
+    position: fixed;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    width: 35vw;
+    position: absolute;
+    top: 20vh;
+    left: 8vw;
+    z-index: -10;
+    line-height: 0;
+}
+
+.header-background {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+    height: 12vh;
+    width: 37vw;
+    top: 18vh;
+    z-index: -11;
+    left: -2vw;
+}
+
+#logo {
+    position: absolute;
+    height: 8vh;
+    width: auto;
+    top: 19vh;
+    left: 3vw;
+}
+
+main {
+    background-color: #fff;
+    height: 100vh;
+    width: 65vw;
+    margin-left: 35vw;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.content {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3vh;
+    margin: 8vh 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
+form {
+    background-color: #eee;
+    padding: 3vh;
+    border-radius: 5px;
+    box-shadow: 0 0 3px;
+}
+
+legend {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    margin: 3px;
+    font-weight: 600;
+}
+
+fieldset {
+    border: none;
+    margin: 1vh auto;
+}
+
+input {
+    display: block;
+    width: 80%;
+    height: 1.6rem;
+    margin-bottom: 1rem;
+    background-color: rgb(241, 250, 241);
+    font-size: 1.2rem;
+    padding-left: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: hsl(103, 8%, 17%);
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 0 5px black;
+    margin: 2vh auto;
+    display: block;
+
+}
+
+.link {
+    color: hsl(103, 8%, 17%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+input:valid {
+    box-shadow: 0 0 3px rgb(29, 136, 29);
+}
+
+input:invalid {
+    box-shadow: 0 0 3px rgb(199, 17, 17);
+}
